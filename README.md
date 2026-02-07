@@ -44,6 +44,7 @@ Le notebook illustre une démarche complète de **prétraitement, exploration et
 - Prédiction sur le **test set** : `y_pred = pipeline.predict(X_test)`  
 - **Accuracy obtenue** : 0.367
 - **Confusion Matrix** :
+  
 | True \ Pred | CDD | CDI | Indépendant |
 |------------|-----|-----|-------------|
 | CDD        | 1   | 14  | 2           |
@@ -103,5 +104,5 @@ Exemple de prédiction sur trois nouveaux employés :
 Ce projet fournit une base solide pour expérimenter la classification de contrats d’employés, tester différents modèles, et analyser les performances par classe, tout en gardant un pipeline **réutilisable et facilement adaptable** à d’autres datasets.
 
 
-- **Confusion Matrix** :  
+  
 
